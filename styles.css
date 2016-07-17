@@ -1,0 +1,154 @@
+
+html {
+    box-sizing: border-box;
+    font: 'Times New Roman';
+    color: #2F2F2F;
+    font-weight: 300;
+    background-color: black;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    color: inherit;
+    font: inherit;
+}
+
+body {
+	display: flex;
+	margin: 24px auto;
+	max-width: 895px;
+}
+
+main, aside {
+	padding: 28px 22px;
+}
+
+aside {
+	flex: 1;
+	border-right: 2px solid #D5CFCB;
+	background-color: #F9F1EE;
+}
+
+i {
+	font-family: 'Times New Roman';
+	text-transform: initial;
+	font-weight: normal;
+}
+
+main {
+	flex: 3;
+	background-color: #FFF;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+i {
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+	font-style: italic;
+	font-size: 0.85em;
+	color: #D2797D;
+}
+
+li h2 {
+	margin: 8px 0px;
+}
+
+header.main-heading {
+	font-family: 'Playfair Display', serif;
+	font-size: 3em;
+	font-weight: 400;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.sub-title {
+	margin: 25px 0px 16px 0px;
+	font-family: 'Arimo', sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #1F1F1F;
+}
+
+main section > .sub-title {
+	margin-bottom: 0px;
+}
+
+h2.sub-title {
+	font-size: 0.9em;
+}
+
+.career-objective .sub-title {
+	margin-top: 0px;
+}
+
+.title-block {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.title-block:first-child {
+	margin-top: 25px;
+}
+
+.title-block:last-child {
+	margin: 0px;
+}
+
+.title-block ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+#skills {
+	height: 200px;
+	margin-top: 20px;
+}
+
+.head-shot img {
+	width: 100%;
+	margin-top: 35px;
+	border-radius: 50%;
+	border-left: 3px solid #E30B10;
+	border-bottom: 3px solid #E30B10;
+}
+
+.fa {
+	font-size: 1em;
+	width: 22px;
+}
+
+.links {
+	text-align: center;
+}
+
+.links ul {
+	display: inline-block;
+	text-align: left;
+}
+
+.links li {
+	padding: 2px 0;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        display: initial;
+        margin: 0;
+    }
+
+    aside {
+    	border-right: none;
+    }
+
+    header.main-heading {
+    	text-align: center;
+    }
+}
