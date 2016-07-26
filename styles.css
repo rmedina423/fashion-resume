@@ -61,10 +61,11 @@ li h2 {
 
 header.main-heading {
 	font-family: 'Playfair Display', serif;
-	font-size: 3em;
+	font-size: 2.7em;
 	font-weight: 400;
     line-height: 39px;
     text-transform: uppercase;
+    text-align: center;
     color: #000;
 }
 
@@ -83,6 +84,10 @@ main section > .sub-title {
 
 h2.sub-title {
 	font-size: 0.9em;
+}
+
+.title-block span {
+	text-transform: initial;
 }
 
 .career-objective .sub-title {
